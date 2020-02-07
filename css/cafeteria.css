@@ -59,3 +59,21 @@ nav ul li a:hover {
   padding-left: 10px;
   /* background-color: rgb(100, 100, 100); */
 }
+/* criação da formatação do rodapé */
+footer {
+  background-color: rgb(75, 35, 9);
+  font-family: "oswald";
+  text-align: center;
+  padding-top: 20px;
+}
+
+div ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
