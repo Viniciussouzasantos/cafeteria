@@ -77,3 +77,122 @@ div a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
+main {
+  /* vamos aplicar uma margem interna de 20px utilizaremos o comando padding 
+   */
+  padding: 20px;
+}
+
+h2 {
+  font-family: "oswald";
+  color: rgb(0, 0, 0);
+  font-size: 30pt;
+  border-bottom: 4px dashed rgb(75, 35, 9);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: "oswald";
+  margin-left: 20px;
+  font-size: 20pt;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+p {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+  /* aplicaremos um comando que aumenta a altura da linha 
+  esse efeito simula o espaçamento entre linhas encontrado no word o comando
+  é line-height */
+  line-height: 25px;
+  margin-bottom: 30px;
+  font-family: "oswald";
+  font-size: 13.5pt;
+}
+#home {
+  text-align: center;
+}
+
+#home img {
+  height: 400px;
+  width: 400px;
+  margin: 30px;
+  /* vamos aplicar um efeito de trasparencia com o comando opacity,onde 1 é totalmente 
+  visivel e 0 é totalmente transparente */
+  opacity: 0.8;
+  border-radius: 50%;
+  transition: ease 1s;
+}
+
+#home img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  cursor: pointer;
+  /* transform: rotate(360deg); */
+  /* transform: rotateX(360deg); */
+}
+#acafeteria img {
+  width: 400px;
+  height: 400px;
+  /* text-align: center; */
+  border-radius: 50%;
+  opacity: 0.8;
+}
+#acafeteria iframe {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#acafeteria {
+  text-align: center;
+}
+#video {
+  text-align: center;
+}
+#acafeteria img:hover {
+  transition: ease 1s;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* abaixo a formatação para a pagina cardapio */
+
+#container,
+#linha,
+#imagem,
+#texto {
+  /* border: 2px solid rgb(75, 35, 9) */
+}
+#container {
+  display: inline-block;
+}
+
+#linha {
+  display: table;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#imagem img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#imagem {
+  width: 200px;
+  height: 200px;
+  /* fazer a imagem flutuar para a esquerda */
+  float: left;
+}
+#texto {
+  padding: 20px;
+  width: 80%;
+  float: left;
+}
