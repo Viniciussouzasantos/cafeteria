@@ -202,3 +202,64 @@ p {
   margin-bottom: 50px;
   box-shadow: 0px 5px 10px rgb(75, 35, 9);
 }
+
+form {
+  border: 3px dashed rgb(75, 35, 9);
+  width: 50%;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-family: "oswald";
+}
+label {
+  /* para dispor os elemntos um abaixo do outro utilizaremos o comando display block */
+  display: block;
+  /* aplicar negrito usamos o font-weight: bold; */
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid rgb(75, 35, 9);
+  background-color: rgba(75, 35, 9, 0.2);
+}
+
+input[type="tel"] {
+  width: 15%;
+}
+
+#sexo {
+  display: block;
+  margin-bottom: 15px;
+}
+
+select {
+  padding: 10px;
+  width: 20%;
+  cursor: pointer;
+}
+
+select option:hover {
+  background-color: rgb(75, 35, 9);
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+textarea {
+  width: 60%;
+  height: 200px;
+  display: block;
+}
+input[type="submit"] {
+  display: block;
+  border: 0;
+  color: rgb(75, 35, 9);
+  padding: 10px;
+  background-color: rgba(75, 35, 9, 0.2);
+  cursor: pointer;
+}
