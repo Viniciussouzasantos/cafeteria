@@ -196,3 +196,9 @@ p {
   width: 80%;
   float: left;
 }
+#container {
+  display: inline-block;
+  /* border-bottom: 2px dashed rgb(75, 35, 9); */
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 10px rgb(75, 35, 9);
+}
